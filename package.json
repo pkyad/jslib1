@@ -1,6 +1,6 @@
 {
 	"name": "@pkyad/jslib1",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"license": "MIT",
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/pkyad"
@@ -36,7 +36,7 @@
 		"script1": "tsx scripts/main.ts"
 	},
 	"lint-staged": {
-		"*.{js,jsx,ts,tsx}": [
+		"*.{js,ts}": [
 			"eslint --fix",
 			"prettier --write"
 		],
